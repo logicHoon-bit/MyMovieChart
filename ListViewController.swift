@@ -141,7 +141,8 @@ class ListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        NSLog("선택된 행은 \(indexPath.row)번째 셀")
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "movieinfo") else {return}
+        self.navigationController?.pushViewController(uvc, animated: true)
     }
     
     @IBAction func more(_ sender: Any) {
