@@ -33,37 +33,52 @@
                                     <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="개봉일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHm-V0-rlq">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개봉일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHm-V0-rlq">
                                             <rect key="frame" x="278" y="15" width="68" height="12"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="68" id="Hma-id-4sg"/>
+                                                <constraint firstAttribute="height" constant="12" id="NM3-tf-IvC"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평점" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-nt-Uqx">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="평점" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-nt-Uqx">
                                             <rect key="frame" x="297" y="48" width="49" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="17" id="9J9-bm-hIp"/>
+                                                <constraint firstAttribute="width" constant="49" id="P7D-3x-qRt"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="개봉일:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7L-Nm-MmD">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개봉일:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7L-Nm-MmD">
                                             <rect key="frame" x="248" y="15" width="30" height="12"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="OD6-Pb-d66"/>
+                                                <constraint firstAttribute="height" constant="12" id="qX4-VB-r3t"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평점:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib0-eC-M0L">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="평점:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib0-eC-M0L">
                                             <rect key="frame" x="267" y="48" width="29" height="17"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="5se-6o-UZg"/>
+                                                <constraint firstAttribute="height" constant="17" id="RkI-Ji-UVO"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="영화에 대한 내용 설명" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91O-Ar-oOn">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="영화에 대한 내용 설명" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91O-Ar-oOn">
                                             <rect key="frame" x="69" y="46" width="190" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="DNo-qw-IbQ"/>
+                                                <constraint firstAttribute="width" constant="190" id="a65-qD-Pld"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -72,14 +87,31 @@
                                             <rect key="frame" x="6" y="6" width="55" height="68"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="영화 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEQ-1T-ErC">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="영화 제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEQ-1T-ErC">
                                             <rect key="frame" x="69" y="15" width="169" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="H79-5R-875"/>
+                                                <constraint firstAttribute="width" constant="169" id="U7E-L7-AWr"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="91O-Ar-oOn" firstAttribute="leading" secondItem="Z1m-Mu-Og1" secondAttribute="trailing" constant="8" symbolic="YES" id="B6t-uc-hGZ"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="gWc-nt-Uqx" secondAttribute="trailing" constant="8.6699999999999999" id="Dud-4T-FZf"/>
+                                        <constraint firstItem="rHm-V0-rlq" firstAttribute="top" secondItem="Q8l-dl-kRt" secondAttribute="topMargin" constant="4" id="KCv-2l-mc5"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="rHm-V0-rlq" secondAttribute="trailing" constant="8.6699999999999999" id="Np7-YH-8M1"/>
+                                        <constraint firstItem="rHm-V0-rlq" firstAttribute="leading" secondItem="m7L-Nm-MmD" secondAttribute="trailing" id="QEq-kS-sbN"/>
+                                        <constraint firstItem="gWc-nt-Uqx" firstAttribute="leading" secondItem="ib0-eC-M0L" secondAttribute="trailing" constant="1" id="cJE-qG-hWm"/>
+                                        <constraint firstItem="gEQ-1T-ErC" firstAttribute="top" secondItem="Q8l-dl-kRt" secondAttribute="topMargin" constant="4" id="eGN-Jv-8aH"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="91O-Ar-oOn" secondAttribute="bottom" constant="2" id="hsm-x5-mJ9"/>
+                                        <constraint firstItem="m7L-Nm-MmD" firstAttribute="top" secondItem="Q8l-dl-kRt" secondAttribute="topMargin" constant="4" id="lAN-vP-E0J"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ib0-eC-M0L" secondAttribute="bottom" constant="4" id="luV-T8-40b"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="gWc-nt-Uqx" secondAttribute="bottom" constant="4" id="yL9-fn-gOO"/>
+                                        <constraint firstItem="gEQ-1T-ErC" firstAttribute="leading" secondItem="Z1m-Mu-Og1" secondAttribute="trailing" constant="8" symbolic="YES" id="zl8-yK-jFq"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="desc" destination="91O-Ar-oOn" id="lj4-qY-XqI"/>
@@ -152,20 +184,31 @@
         <scene sceneID="Cbg-lz-9v7">
             <objects>
                 <viewController storyboardIdentifier="movieinfo" id="gjC-IC-jYE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SuD-sX-F44">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SuD-sX-F44">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tb0-Y0-q7S">
-                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-1" y="59" width="394" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="영화 상세 정보" id="7tO-Jh-fT8"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kXL-Fs-Lyc">
+                                <rect key="frame" x="50" y="326" width="275" height="128"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="H1R-Pt-may"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cE1-om-ReC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cE1-om-ReC" firstAttribute="trailing" secondItem="kXL-Fs-Lyc" secondAttribute="trailing" constant="50" id="DzC-9V-BSe"/>
+                            <constraint firstItem="kXL-Fs-Lyc" firstAttribute="leading" secondItem="cE1-om-ReC" secondAttribute="leading" constant="50" id="b64-u5-dfz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSz-gz-Re2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -216,6 +259,9 @@
         <image name="Trailer.png" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
